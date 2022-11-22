@@ -19,6 +19,6 @@ public class FighterJet extends AirVehicle {
 
     //METHOD
     public String fuelReminder() {
-        return String.format("Make sure you have enough %s !", getFuelTypes());
+        return String.format("Make sure you have enough %s!", getFuelTypes());
     }
 }

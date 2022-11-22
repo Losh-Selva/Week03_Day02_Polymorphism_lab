@@ -11,9 +11,33 @@ public class CarTest {
     };
     }
     @Test
+    public void canGetVehicleLength() {
+        double expected = 14.7;
+        double actual = car.getVehicleLength();
+        assertEquals(expected, actual);
+    }
+    @Test
+    public void canGetDrivetrains(){
+        LandVehicle.driveTrain expected = LandVehicle.driveTrain.MECHANICAL;
+        LandVehicle.driveTrain actual = car.getDriveTrains();
+        assertEquals(expected,actual);
+    }
+    @Test
+    public void hasSteeringInput(){
+        boolean expected = true;
+        boolean actual = car.isSteeringInput();
+        assertEquals(expected, actual);
+    }
+    @Test
     public void canGetNoOfDoors(){
         int expected = 5;
         int actual = car.getNoOfDoors();
         assertEquals(expected,actual);
+    }
+    @Test
+    public void canGetFuelReminder(){
+        String expected = "Remember to fuel up with GASOLINE";
+        String actual = car.fuelReminder();
+        assertEquals(expected, actual);
     }
 }

@@ -16,6 +16,6 @@ public class Helicopter extends AirVehicle {
  }
 //METHODS
 public String fuelReminder(){
- return String.format("Don't fly without %s !", getFuelTypes());
+ return String.format("Don't fly without %s!", getFuelTypes());
 }
 }

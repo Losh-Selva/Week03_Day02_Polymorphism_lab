@@ -19,6 +19,6 @@ public class Train extends LandVehicle {
 
     //METHOD
     public String fuelReminder() {
-        return String.format("This train doesn't run on dreams, fill up with %s !", getFuelTypes());
+        return String.format("This train doesn't run on dreams, it runs on %s power!", getFuelTypes());
     }
 }
