@@ -3,7 +3,7 @@ import Vehicles.Vehicle;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.assertEquals;
-public abstract class HelicopterTest {
+public class HelicopterTest {
     private Helicopter helicopter;
 
     @BeforeEach
