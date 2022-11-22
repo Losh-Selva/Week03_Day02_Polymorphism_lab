@@ -1,9 +1,9 @@
 package Vehicles;
 
 public abstract class Vehicle {
-    protected int noOfWheels;
-    protected int maximumOccupancy;
-    protected fuelType fuelTypes;
+    private int noOfWheels;
+    private int maximumOccupancy;
+    private fuelType fuelTypes;
     public enum fuelType{
         GASOLINE, ELECTRIC, ATF,
     }
