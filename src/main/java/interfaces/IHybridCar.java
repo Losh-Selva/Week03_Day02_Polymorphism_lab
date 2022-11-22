@@ -1,5 +1,5 @@
 package interfaces;
 
-public interface IHybrid {
+public interface IHybridCar {
     String range (int distance);
 }

@@ -1,8 +1,8 @@
 package LandVehicles;
 
-import interfaces.IHybrid;
+import interfaces.IHybridCar;
 
-public class HybridCar extends LandVehicle implements IHybrid {
+public class HybridCar extends LandVehicle implements IHybridCar {
 
     public HybridCar(int noOfWheels, int maximumOccupancy, fuelType fuelTypes, double vehicleLength, driveTrain driveTrains, boolean steeringInput) {
         super(noOfWheels, maximumOccupancy, fuelTypes, vehicleLength, driveTrains, steeringInput);
